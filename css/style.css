@@ -1,0 +1,247 @@
+@font-face {
+    src: url(../font/Arvo-Regular.ttf);
+    font-family: arvo;
+}
+
+@font-face {
+    src: url(../font/Poppins-Medium.ttf);
+    font-family: poppins;
+}
+@font-face {
+    src: url(../font/RobotoMono-Medium.ttf);
+    font-family: roboto;
+}
+
+body {
+    background-color: #D1CBC1;
+    text-align: center;
+}
+
+header {
+    background-image: url(../img/background.jpg);
+    border: 2px solid black;
+    padding: 15px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header a:hover {
+    display: inline-block;
+    margin: 0 0.0rem;
+    animation: pulse;
+    animation-duration: 2s;
+}
+
+li {
+    display: inline;
+    margin: 20px;
+}
+
+a {
+    font-family: roboto;
+    font-size: 20px;
+    color: #ff8642;
+}
+
+a:hover {
+    color: cadetblue;
+    text-decoration: none;
+}
+
+a:active {
+    color: black;
+    text-decoration: none;
+}
+
+a:focus {
+    outline:none;
+    color: grey;
+}
+h2 {
+    font-family: arvo;
+    color: #F1D38B;
+    text-shadow: 2px 2px black;
+
+}
+
+#kozep {
+    font-family: poppins;
+    font-size: 40px;
+    color: #dbd3c5;
+    text-shadow: 2px 2px black;
+}
+
+.card {
+    float: right;
+    display: block;
+    background-color: #F1D38B;
+}
+
+h5 {
+    font-family: poppins;
+    color: #ff8642;
+    text-shadow: 1px 1px #000000;
+}
+
+#szovegdoboz {
+    text-align: center;
+    font-family: poppins;
+    font-size: 15px;
+    color: black;
+    float: right;
+    letter-spacing: 1px;
+}
+
+#logo-right {
+    float:right;
+}
+
+#logo-right:hover {
+    display: inline-block;
+    margin: 0 0.0rem;
+    animation: shakeY;
+    animation-duration: 2s;
+}
+
+#logo-left {
+    float: left;
+}
+
+#logo-left:hover {
+    display: inline-block;
+    margin: 0 0.0rem;
+    animation: shakeY;
+    animation-duration: 2s;
+}
+
+#parallax-title {
+    font-size: 60px;
+    float: left;
+    margin: 10px 20px 30px 20px;
+}
+
+#parallax-description {
+    font-family: poppins;
+    float: left;
+    text-align: justify;
+    font-size: 20px;
+    text-shadow: 1px 1px black;
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+}
+
+.alpha-slider-item {
+    border-left: 18px solid #D1CBC1 !important;
+}
+
+
+.display-4 {
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.w-100 {
+    border-radius: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#hatter {
+    background-image: url(../img/background.jpg);
+    background-repeat: repeat;
+    border: 2px solid black;
+    padding: 25px;
+    background-size: auto;
+    line-height: 30px;
+}
+
+#esemenyfelirat {
+    font-size: 55px;
+    color: #f89242;
+    text-shadow: 1px 1px black;
+
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #dc3545;
+    border: 1px solid black;
+    font-family: arvo;
+    margin-bottom: 50px;
+}
+
+.btn-danger:hover {
+    display: inline-block;
+    margin: 0 0.0rem;
+    animation: headShake;
+    animation-duration: 2s;
+}
+
+#contact {
+    background-color: grey;
+}
+
+#contact h2 {
+    font-size: 50px;
+}
+#map {
+    width: 100%;
+    height: 450px;
+    border: none;
+    margin-top: 80px;
+    bottom: 0;
+    max-width: 100%;
+    min-height: 350px;
+    border-top: 10px solid #F1D38B;
+}
+
+.footer {
+    background-color: #594129;
+    border-top: 5px solid black;
+}
+#footer-description {
+    font-family: roboto;
+    color: #dbd3c5;
+    margin-top: 40px;
+}
+
+h3 {
+    color: #e8e8ea;
+    margin: 25px;
+    text-shadow: 1px 1px black;
+}
+
+h4 {
+    color: #e8e8ea;
+    margin: 25px;
+    text-shadow: 1px 1px black;
+}
+
+#contact h2 {
+    margin-bottom: 35px;
+}
+
+#contact p {
+    color: #ff8642;
+    text-shadow: 1px 1px black;
+    font-size: 20px;
+}
+
+.budapest-logo {
+    margin: 35px;
+}
+
+.contact-logo:hover {
+    display: inline-block;
+    margin: 0 0.0rem;
+    animation: flash;
+    animation-duration: 2s;
+}

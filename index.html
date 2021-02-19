@@ -1,14 +1,153 @@
 <!DOCTYPE html>
-<html lang="hu">
-<head>
-   <meta charset="UTF-8">
-   <link href="style.css" rel="stylesheet" type="text/css"/>
-    <title>Github Projekt | Tizenkettedik óra</title>   
-</head>
-<body>
-   <h1>Az első Github oldalam.</h1>
-   <p>>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi semper urna nec orci hendrerit dictum. Mauris pharetra justo nec lectus congue, rhoncus tincidunt ligula egestas. Nulla ligula mi, eleifend dapibus porttitor mollis, pellentesque eu libero. In sed blandit massa. Nulla at dictum arcu. Duis fermentum vulputate tristique. Vestibulum dictum dui non tellus viverra varius. Quisque elementum dolor ut bibendum fermentum. Praesent neque nulla, dignissim sed dolor pellentesque, consectetur viverra neque. Vivamus euismod augue id laoreet luctus. Curabitur tempus ac nunc vulputate rutrum. Curabitur quam dolor, volutpat a libero sed, laoreet pulvinar sem.</p>
-    
-    
-</body>
+<html>
+    <head>
+        <title>Budapest Állatmenhely | Adószám: 12345678-1-13</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="img/favicon.png" rel="shortcut icon" type="image/x-icon">
+        <link href="bootstrap-4.5.0/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="bootstrap-extension/css/4.5.1/bootstrap-extension.min.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div>
+                    <ul>
+                        <li><img src="img/pet-house.png" style="width: 50px" alt=""/></li>
+                        <li><img src="img/cat.png" style="width: 50px" alt=""/></li>
+                        <li><a href="#alpha-slider">Kezdőlap</a></li>
+                        <li><a href="#parallax-title">Alapítványunk</a></li>
+                        <li><a href="#support">Támogass!</a></li>
+                        <li><a href="#contact">Kapcsolat</a></li>
+                        <li><img src="img/dog.png" style="width: 50px" alt=""/></li>
+                        <li><img src="img/pet-house.png" style="width: 50px" alt=""/></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+
+        <!-- FŐCÍM ELSŐ KÉT KÉP VILÁGOSÍT!!!-->
+        <main>
+            <section>
+                <div class="kezdolap" id="alpha-slider" data-interval="5000">
+                    <div class="alpha-slider-item">
+                        <img src="img/dog-7.jpg" alt="dog">
+                        <div class="alpha-slider-caption d-none d-md-block">
+                            <h2 class="text-center display-1">Budapest Állatmenhely</h2>
+                            <p class="text-center" id="kozep">Adószám: 12345678-1-13</p>
+                        </div>
+                    </div>
+                    <div class="alpha-slider-item">
+                        <img src="img/dog-9.jpg" alt="pizza2">
+                        <div class="alpha-slider-caption d-none d-md-block">
+                            <h2 class="text-center display-1">Kutyák</h2>
+                            <p class="text-center" id="kozep">Legyél Te a legkülönlegesebb gazdi!</p>
+                        </div>
+                    </div>
+                    <div class="alpha-slider-item">
+                        <img src="img/cat-6.jpg" alt="pizza4">
+                        <div class="alpha-slider-caption d-none d-md-block">
+                            <h2 class="text-center display-1">Macskák</h2>
+                            <p class="text-center" id="kozep">Nézz be hozzánk és vigyél haza!</p>
+                        </div>
+                    </div>
+                    <div class="alpha-slider-item">
+                        <img src="img/cat-5.jpg" alt="pizza5">
+                        <div class="alpha-slider-caption d-none d-md-block">
+                            <h2 class="text-center display-1">Csatlakozz hozzánk!</h2>
+                            <p class="text-center" id="kozep">Lépj kapcsolatba velünk még ma!</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- KÁRTYA -->
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Adománykérés</h5>
+                    <p class="card-text" id="szovegdoboz">Ha szeretném adományozni és támogatni minket, itt megteheted.</p>
+                    <a href="#" class="btn btn-dark" id="gomb">Segítek!</a>
+                </div>
+            </div>
+
+            <!-- ALAPÍTVÁNYUNK -->
+            <section class="parallax" data-speed="0.3" data-img-src="img/parallax.jpg">
+                <div class="container py-8 text-white">
+                    <img src="img/pawprint.png" alt="Logó" id="logo-left" style="width: 100px">
+                    <h2 id="parallax-title">Alapítványunk</h2>
+                    <p id="parallax-description">
+                        Nunc vitae nulla maximus, fringilla lorem id, mollis risus. Nunc eu felis turpis. Maecenas vestibulum blandit facilisis. Vivamus pharetra nulla magna, interdum rhoncus leo vestibulum in.Pellentesque in eros non mauris vehicula elementum. Maecenas eu ex aliquam, viverra quam in, rhoncus ex. Vestibulum rhoncus velit in odio rutrum cursus. Quisque ornare eros malesuada euismod bibendum.</p>
+                </div>
+            </section>
+
+            <!-- TÁMOGATÁS -->
+            <section id="support" class="container-fluid">
+                <div class="container py-6 text-center">
+                    <div class="support-header">
+                        <img src="img/bone.png" alt="Logó" id="logo-left" style="width: 100px">
+                        <img src="img/cat-toy.png" alt="Logó" id="logo-right" style="width: 100px">
+                        <h2 class="display-4 text-fresh" id="support">Támogass minket!</h2>
+                    </div>
+
+                    <div id="hatter" class="row">
+                        <article class="col-12 col-lg-4">
+                            <div class="hover-zoom hover-color">
+                                <img class="w-100" src="img/charity.jpg" alt="Kutyus és a gazdi">
+                            </div>
+                            <h3 id="esemenyfelirat" class="display-7 mt-3">Önkéntes munka</h3>
+                            <p>Aliquam ut porttitor velit, eget tempus nibh. Vestibulum mollis a libero nec ultricies. Phasellus lobortis eget justo ac porta. Phasellus ac condimentum libero.</p>
+                            <button type="button" class="btn btn-danger">Jelenetkezem!</button>
+                        </article>
+                        <article class="col-12 col-lg-4">
+                            <div class="hover-zoom hover-color">
+                                <img class="w-100" src="img/cat-3.jpg" alt="Cicák">
+                            </div>
+                            <h3 id="esemenyfelirat" class="display-7 mt-3">Pénzügyi támogatás</h3>
+                            <p>Aliquam ut porttitor velit, eget tempus nibh. Vestibulum mollis a libero nec ultricies. Phasellus lobortis eget justo ac porta. Phasellus ac condimentum libero.</p>
+                            <button type="button" class="btn btn-danger">Adományozok!</button>
+                        </article>
+                        <article class="col-12 col-lg-4">
+                            <div class="hover-zoom hover-color">
+                                <img class="w-100" src="img/gift.jpg" alt="Adományozás">
+                            </div>
+                            <h3 id="esemenyfelirat" class="display-7 mt-3">Tárgyi támogatás</h3>
+                            <p>Aliquam ut porttitor velit, eget tempus nibh. Vestibulum mollis a libero nec ultricies. Phasellus lobortis eget justo ac porta. Phasellus ac condimentum libero.</p>
+                            <button type="button" class="btn btn-danger">Ajándékozok!</button>
+                        </article>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+
+        <div id="contact">
+            <h2>Kapcsolat</h2>
+            <img src="img/location.png" class="contact-logo" alt="Lokáció" style="width:80px;"/>
+            <h3>Budapest Állatmenhely Zrt.</h3>
+            <p><strong>Cím:</strong> 1065 Budapest, Szófia u. 15. Fsz 5.<br>
+                <strong>Szám:</strong> +36 30 608 3221</p>
+            <img src="img/pawprint.png" class="contact-logo" alt="Nyitvatartás" style="width:80px;"/>
+            <h4>Nyitvatartás</h4>
+            <p><strong>Hétfő - péntek</strong> 10:00 - 19:00<br>
+                <strong>Szombat - vasárnap</strong> 11:00 - 16:00</p>
+            <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2695.233242169014!2d19.06459111514895!3d47.50484870299547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741dc6fb253582d%3A0xb727d6ab3c387aec!2zUFJPT0tUQVTDgVMgS8OWWlBPTlQ!5e0!3m2!1shu!2shu!4v1613650500986!5m2!1shu!2shu" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> 
+        </div>
+
+        <div class="footer">
+            <p id="footer-description">Budapest Állatmenhely - Minden jog fenntartva! - &copy; - 2021</p>
+            <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fprooktatas%2F&width=200&layout=button_count&action=like&size=large&share=true&height=46&appId" width="200" height="46" style="border:none;overflow:hidden" scrolling="no" frameborder="0"></iframe>
+        </div>
+
+        <!-- ToTop Gomb -->
+        <div class="d-none d-md-block">
+            <div class="bg-danger text-white rounded" id="toTop"></div>
+        </div>
+
+        <script src="js/jquery-3.5.1.min.js" type="text/javascript"></script>
+        <script src="bootstrap-4.5.0/js/bootstrap.bundle.min.js" type="text/javascript"></script>
+        <script src="bootstrap-extension/js/4.5.1/bootstrap-extension.min.js" type="text/javascript"></script>
+    </body>
 </html>
