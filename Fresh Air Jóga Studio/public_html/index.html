@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FreshAir Jóga Stúdió</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="img/favicon.png" type="image/png" sizes="16x16">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.24/datatables.min.css"/>
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <script src="jquery-3.6.0.min.js" type="text/javascript"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+        <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.24/datatables.min.js"></script>
+        <script src="js.js"></script>
+    </head>
+    <body>
+        <header>
+            <img class="graphic" src="img/loga.png" alt=""/>
+            <img class="logo" src="img/logo.png" alt=""/>
+            <div class="mobilmenu">&#8801;</div>
+            <nav class="nav">
+                <ul class="menu">
+                    <li><a class="start" href="#">Kezdőlap</a></li>
+                    <li>
+                        <a href="#">Foglalkozások</a>
+                        <ul>
+                            <li><a href="#grid-head">Csakra Jóga</a></li>
+                            <li><a href="#grid-head">Stressz Jóga</a></li>
+                            <li><a href="#grid-head">Gerinc Jóga</a></li>
+                            <li><a href="#grid-head">Strala Relax</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#train-title">Oktatóképzés</a>
+                        <ul>
+                            <li><a href="#train">Flow Jóga </a></li>
+                            <li><a href="#train">Fiatalok</a></li>
+                            <li><a href="#train">Kismamák</a></li>
+                            <li><a href="#train">Nyugdíjasok</a></li>
+                            <li><a href="gallery.html">Galéria</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#price">Árak</a></li>
+                    <li><a href="#teacher-slide">Oktatóink</a></li>
+                    <li><a href="#contact">Kapcsolat</a></li>  
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section>
+                <div id="main">
+                    <h1>Megnyitottunk!<br>Fresh Air Jóga Stúdió &copy</h1>
+                </div>
+                <p><a class="btn" href="#train">Jelentkezem!</a></p>
+            </section>
+
+            <section>
+                <div class="bxslider">
+                    <div><img src="img/yoga2.jpg" title="Szeméyes órák"></div>
+                    <div><img src="img/yoga3.jpg" title="Szabadtéri gyakorlatok"></div>
+                    <div><img src="img/yoga6.jpg" title="Irodai átszellemülés"></div>
+                    <div><img src="img/yoga5.jpg" title="Személyre szabott nyújtógyakorlatok"></div>
+                    <div><img src="img/yoga7.jpg" title="Nyári kaland tábor"></div>
+                </div>
+                <div class="mantra"><h3><img class="refresh" src="img/reload.png" alt="Felfrissülés"/>A Jóga Mantrája</h3>
+                    <p class="description">A szeretet az élet Törvénye. Szeretni annyi, mint betartani a Törvényt. Aki betartja a Törvényt, az örök békére és örökké tartó boldogságra lel. Ez a világ a szeretetből jött létre, a szeretetben létezik, és a szeretetben is fog feloldódni. A szeretet az univerzum mögött rejlő hajtóerő. A szeretet élet. A szeretet öröm.<p>
+                </div>
+                <hr>
+            </section>
+
+            <section id="background-image">
+                <div id="grid-head">
+                    <h2>Foglalkozásaink</h2>
+                </div>
+                <div id="grid">
+                    <div class="col col-3"><img class="image" src="img/grid1.jpg" alt="Meditációs gyakorlatot végző nő"/><a class="btn" href="#train">Csakra Jóga</a></div>
+                    <div class="col col-3"><img class="image" src="img/grid2.jpg" alt="Stressz gyakorlatot végző nő"/><a class="btn" href="#train">Stressz Jóga</a></div>
+                    <div class="col col-3"><img class="image" src="img/grid3.jpg" alt="Gerinc gyakorlatot végző nő"/><a class="btn" href="#train">Gerinc Jóga</a></div>
+                    <div class="col col-3"><img class="image" src="img/grid4.jpg" alt="Strala relax gyakorlatot végző nő"/><a class="btn" href="#train">Strala Relax</a></div>
+                </div>
+                <div class="mantra"><h3><img class="refresh" src="img/reload.png" alt="Felfrissülés"/>Kinek ajánljuk?</h3>
+                    <p class="description">Mindenkinek, aki kiszakadna a hétköznapokból és felfrissülésre vágyik. Nálunk elengedheti mindazt, ami stresszként jelenik meg az életében. A testében és elméjében rejtett feszültségek feloldására törekszünk könnyed mozgással és légzéssel. A fizikai test egészségének helyreállításával a testtartását is javítjuk!<p>
+                </div>
+                <hr>
+            </section>
+
+            <section id="train">
+                <h2>Oktatóképzés</h2>
+                <table class="stripe" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th>Képzések</th>
+                            <th>Részvétel</th>
+                            <th>Napok</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Flow Jóga<br><b>(Kerekes Richárd)</b></td>
+                            <td><a class="btn-yoga" href="pay.html">Jelentkezem!</a></td>
+                            <td>Hétfő-Szerda-Péntek</td>
+                        </tr>
+                        <tr>
+                            <td>Csakra Jóga<br><b>(Scholler Mariána)</b></td>
+                            <td><a class="btn-yoga" href="pay.html">Jelentkezem!</a></td>
+                            <td>Kedd-Csütörtök</td>
+                        </tr>
+                        <tr>
+                            <td>Stressz Jóga<br><b>(Brakker Liliána)</b></td>
+                            <td><a class="btn-yoga" href="pay.html">Jelentkezem!</a></td>
+                            <td>Szerda-Péntek</td>
+                        </tr>
+                        <tr>
+                            <td>Relaxáció Kismamáknak<br><b>(Brakker Liliána)</b></td>
+                            <td><a class="btn-yoga" href="pay.html">Jelentkezem!</a></td>
+                            <td>Csütörtök-Szombat</td>
+                        </tr>
+                        <tr>
+                            <td>Gerinc Jóga<br><b>(Kerekes Richárd)</b></td>
+                            <td><a class="btn-yoga" href="pay.html">Jelentkezem!</a></td>
+                            <td>Péntek-Vasárnap</td>
+                        </tr>
+                        <tr>
+                            <td>Nyugdíjas Felfrissülés<br><b>(Scholler Mariána)</b></td>
+                            <td><a class="btn-yoga" href="pay.html">Jelentkezem!</a></td>
+                            <td>Szombat-Vasárnap</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <hr>
+            </section>
+
+            <div id="price">
+                <h2>Árak</h2>
+                <div class="flex-container">
+                    <div><h3 class="price-main">&#10042; Kedvezmények</h3>
+                        <p class="text-price">- Bérletét stúdiónkban a nyitvatartás ideje alatt személyesen, illetve online veheti meg. Belépést kap a floglalkozások mindegyikébe, óraszámtól függetlenül. A bérletet központi stúdiónkban bármikor elfogadjuk! - <u>500 Ft/Alkalom</u></p>
+                        <p class="text-price">- Nappali tagozatos érvényes diákigazolvánnyal, diákoknak kedvezményesen korlátlan havi, vagy négy alkalmas bérlet vásárlása esetén az óraszámokat adminisztárcióvak tartjuk számon. - <u>250 Ft/Alkalom</u></p>
+                        <p class="text-price">- Nyugdíjasoknak 90%-os kedvezménnyel kizárólag az idős tanfolyamokra van lehetőségük jelentkezni. - <u>100 Ft/Alkalom</u></p>
+                        <a class="btn-price" href="pay.html">Jegyet vásárlok!</a>
+                    </div>
+                    <div class="last-child">
+                        <img class="image-price" src="img/yoga12.jpg" alt=""/>
+                    </div>
+                </div>
+                <hr>
+            </div>
+
+            <div id="teacher-slide">
+                <h2>Oktatóink</h2>
+                <div class="grid-container">
+                    <div>
+                        <img class="teacher-image" src="img/teacher1.jpg" alt="Scholler Mariána"/>
+                        <h5>&#10050; Scholler Mariána &#10050;</h5>
+                        <p class="teacher-desciprion">"Mérhetetlenül hálás vagyok az életnek, hogy megoszthatom technikáimat és taníthatom az ideológiámat, melynek magja a szeretetteljes kedvesség!"</p>
+                    </div>
+                    <div>
+                        <img class="teacher-image" src="img/teacher2.jpg" alt="Kerekes Richárd"/>
+                        <h5>&#10050; Kerekes Richárd &#10050;</h5>
+                        <p class="teacher-desciprion">"Önismeretemre és lelki nyugalmamra először meditációs gyakorlatokkal tudtam szert tenni. Mára elismert hatha jóga és flow oktató vagyok, spiritualitásomat pedig a természet és környezetünk csodái bálványozzák."</p>
+                    </div>
+                    <div>
+                        <img class="teacher-image" src="img/teacher3.jpg" alt="Brakker Liliána"/>
+                        <h5>&#10050; Brakker Liliána &#10050;</h5>
+                        <p class="teacher-desciprion">"2017-ben nyitottam a Fresh Air Jógastúdiót, ahol jógaoktató képzéseimet vezetem és többféle modern jógafajtát tanítok. Emellett festek, írok és egy népszerű blogot vezetek a Facebookon."</p>
+                    </div>  
+                </div>
+                <hr>
+            </div>
+
+
+            <div id="contact">
+                <h2>Kapcsolat</h2>
+                <p class="contact">1114 Feneketlen-tó, Budapest</p>
+                <p class="contact">Megközelítés: Móricz Zsigmond Körtér (41-es villamossal vagy M4-es metróval)</p>
+                <p class="contact">Gépkocsival: Az intézmény számára fenntartot, ingyenes parkolóhely.</p>
+                <p class="contact">Telefonszám : +36 20 123 45 67 vagy +36 30 123 45 67</p>
+                <p class="contact">E-mail cím : fresh.air@citromail.com</p>
+                <iframe class="iframe-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2696.667698428136!2d19.039461815147888!3d47.47690465492229!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741ddb46967d15f%3A0xb8aff81b3a0b509b!2sFeneketlen-t%C3%B3!5e0!3m2!1shu!2shu!4v1617116252896!5m2!1shu!2shu" allowfullscreen=""></iframe>
+            </div>
+
+            <div id="question">
+                <h3 class="question-title">Írj üzenetet!</h3>
+
+                <form id="form-group" method="post" action="#">
+                    <div class="col-75" style="margin-top: 20px; text-align: center;">
+                        <label>Név:<br></label>
+                        <input type="text" id="name" name="name" placeholder="Név" style="height:30px; width:250px;" required><br>
+                        <label>E-mail:<br></label>
+                        <input type="email" name="email" placeholder="E-mail címe" style="height:30px; width:250px;" required>
+                        <div class="col-75">
+                            <select name="targy" required>
+                                <option value=""  disabled selected>Üzenet típusa</option>
+                                <option value="1">Kérdés</option>
+                                <option value="2">Észrevétel</option>
+                                <option value="3">Sajtó megkeresés</option>
+                                <option value="4">Támogatás</option>
+                                <option value="5">Egyéb</option>
+                            </select>
+                        </div>
+                        <div class="col-75">
+                            <textarea name="uzenet" placeholder="Üzenet" style="height:150px; width:250px;" required></textarea>
+                        </div>
+                        <div class="col-75">
+                            <button class="btn-data">Küldés</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            
+            <footer>
+                <p>Fresh Air Jóga Studió &#169; - Minden jog fenntartva! - 2021</p>
+                <iframe class="iframe-like" src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fpages%2Fcategory%2FLocal-Business%2FFeneketlen-t%25C3%25B3-63548373423%2F&width=150&layout=button_count&action=like&size=small&share=true&height=46&appId" width="200" height="50" style="border:none;overflow:hidden; text-align:center;" scrolling="no" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+            </footer>
+        </main>
+    </body>
+</html>
