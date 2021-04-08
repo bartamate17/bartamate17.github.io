@@ -312,7 +312,7 @@ h2 {
 }
 
 .text-price {
-    margin: 20px 60px;
+    margin: 20px 80px;
     font-family: 'Jura', sans-serif;
 }
 
@@ -459,6 +459,12 @@ footer {
 }
 
 /*RESPONSIVE*/
+@media screen and (min-width: 1920px){
+    .mantra {
+        margin-top: 190px !important;
+    }
+}
+
 @media screen and (min-width:1380px){
 
     main {
@@ -470,7 +476,7 @@ footer {
     }
 
     .mantra {
-        margin-top: 73px;
+        margin-top: 110px;
     }
     .bx-wrapper {
         display: none;
@@ -481,7 +487,7 @@ footer {
     }
 
     #background-image {
-        background-size: cover;
+        background-size: inherit;
     }
 
 }
