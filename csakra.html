@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>FreshAir Jóga Stúdió</title>
+        <title>FreshAir Jóga Stúdió | Csakra Jóga</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="Barta Máté György">
@@ -21,15 +21,25 @@
 
 
         <style>
+            * {box-sizing: border-box;}
             main {background-image: none;}
-            .picture {width: 300px; border: 2px solid orange; margin-top: 10px; box-shadow: 5px 5px 5px #aaaaaa;}
+            h2 {margin-top: 0;}
+            .picture {width: 100%; border: 2px solid orange;}
             .btn {width: 150px; line-height: 20px;}
             .main {margin-bottom: 0;}
             p {width: 100%; height: 132px;}
+            .definition{background-color: rgba(255,255,255,.6)}
             .btn-gallery {margin-top: 0;}
+            .doc {text-align: justify; padding: 50px;}
             @media screen and (max-width:1200px){
                 main {
                     background-image: none;
+                }
+            }
+            @media screen and (max-width:768px){
+                .doc {
+                    margin: 25px 0;
+                    padding: 20px;
                 }
             }
 
@@ -69,23 +79,20 @@
         </header>
 
         <main>
-            <div class="gallery">
-                <a data-fancybox="gallery" href="img/gallery/glry-1.jpg"><img class="picture" src="img/gallery/sm-1.jpg"></a>
-                <a data-fancybox="gallery" href="img/gallery/glry-2.jpg"><img class="picture" src="img/gallery/sm-2.jpg"></a>
-                <a data-fancybox="gallery" href="img/gallery/glry-3.jpg"><img class="picture" src="img/gallery/sm-3.jpg"></a>
-                <a data-fancybox="gallery" href="img/gallery/glry-4.jpg"><img class="picture" src="img/gallery/sm-4.jpg"></a>
-                <a data-fancybox="gallery" href="img/gallery/glry-5.jpg"><img class="picture" src="img/gallery/sm-5.jpg"></a>
-                <a data-fancybox="gallery" href="img/gallery/glry-6.jpg"><img class="picture" src="img/gallery/sm-6.jpg"></a>
-                <a data-fancybox="gallery" href="img/gallery/glry-7.jpg"><img class="picture" src="img/gallery/sm-7.jpg"></a>
-                <a data-fancybox="gallery" href="img/gallery/glry-8.jpg"><img class="picture" src="img/gallery/sm-8.jpg"></a>
-                <a data-fancybox="gallery" href="img/gallery/glry-9.jpg"><img class="picture" src="img/gallery/sm-9.jpg"></a>
-                <a data-fancybox="gallery" href="img/gallery/glry-10.jpg"><img class="picture" src="img/gallery/sm-10.jpg"></a>
-                <a data-fancybox="gallery" href="img/gallery/glry-11.jpg"><img class="picture" src="img/gallery/sm-11.jpg"></a>
-                <a data-fancybox="gallery" href="img/gallery/glry-12.jpg"><img class="picture" src="img/gallery/sm-12.jpg"></a>
+            <div class="definition">
+                <div class="image-left">
+                    <h2>Csakra Jóga</h2>
+                    <img class="picture" src="img/csakra.jpg" alt=""/>
+                    <p class="doc">&#8718 A csakrák olyan energiaközpontok a testünkben, amelyek alapvetően meghatározzák energiaszintünket, testi és lelki egészségünket. A csakrák léte csak számunkra, nyugatiak számára tűnik misztikus dolognak, a keleti országok orvosi egyetemein elfogadottnak tekintik létezésüket.</p><br>
+                    <p class="doc">&#8718 Az órák során mindig egy adott csakrára és ahhoz tartozó szerveinkre koncentrálunk, illetve végig egy kiválasztott „csúcspóz” felé haladunk, az ahhoz szükséges izmok erősítésével és nyújtásával.</p><br>
+                    
+                    <div class="btn-gallery">
+                        <p><a class="btn" href="index.html">Kezdőlap</a></p>
+                    </div>
+                </div>
             </div>
-            <div class="btn-gallery">
-                <p><a class="btn" href="index.html">Kezdőlap</a></p>
-            </div>
+
+
         </main>
 
     </body>

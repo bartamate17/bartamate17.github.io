@@ -5,6 +5,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="Barta Máté György">
+        <meta name="keywords" content="Fresh Air, Jóga Stúdió, Egészség">
+        <meta name="description" content="A jóga felfrissülés és pihenés, amit bármikor megtanulhat! Belső harmóniánk ápolásával fizikai és lelki balanszra tehetünk szert, melynek legfontosabb alappillére: a szeretet.">
         <link rel="icon" href="img/favicon.png" type="image/png" sizes="16x16">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
         <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.24/datatables.min.css"/>
@@ -17,12 +19,11 @@
     </head>
     <body>
         <header>
-            <img class="graphic" src="img/loga.png" alt=""/>
-            <img class="logo" src="img/logo.png" alt=""/>
+            <a class="start" href="#"><img class="graphic" src="img/loga.png" alt=""/></a>
+            <a class="start" href="#"><img class="logo" src="img/logo.png" alt=""/></a>
             <div class="mobilmenu">&#8801;</div>
             <nav class="nav">
                 <ul class="menu">
-                    <li><a class="start" href="#">Kezdőlap</a></li>
                     <li>
                         <a href="#">Foglalkozások</a>
                         <ul>
@@ -33,17 +34,17 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="#train-title">Oktatóképzés</a>
+                        <a href="#train">Órarendünk</a>
                         <ul>
-                            <li><a href="#train">Flow Jóga </a></li>
-                            <li><a href="#train">Fiatalok</a></li>
-                            <li><a href="#train">Kismamák</a></li>
-                            <li><a href="#train">Nyugdíjasok</a></li>
-                            <li><a href="gallery.html">Galéria</a></li>
+                            <li class="width-balance"><a href="#train">Flow Jóga </a></li>
+                            <li class="width-balance"><a href="#train">Fiatalok</a></li>
+                            <li class="width-balance"><a href="#train">Kismamák</a></li>
+                            <li class="width-balance"><a href="#train">Nyugdíjasok</a></li>
                         </ul>
                     </li>
                     <li><a href="#price">Árak</a></li>
                     <li><a href="#teacher-slide">Oktatóink</a></li>
+                    <li><a href="gallery.html">Galéria</a></li>
                     <li><a href="#contact">Kapcsolat</a></li>  
                 </ul>
             </nav>
@@ -76,10 +77,10 @@
                     <h2>Foglalkozásaink</h2>
                 </div>
                 <div id="grid">
-                    <div class="col col-3"><img class="image" src="img/grid1.jpg" alt="Meditációs gyakorlatot végző nő"/><a class="btn" href="#train">Csakra Jóga</a></div>
-                    <div class="col col-3"><img class="image" src="img/grid2.jpg" alt="Stressz gyakorlatot végző nő"/><a class="btn" href="#train">Stressz Jóga</a></div>
-                    <div class="col col-3"><img class="image" src="img/grid3.jpg" alt="Gerinc gyakorlatot végző nő"/><a class="btn" href="#train">Gerinc Jóga</a></div>
-                    <div class="col col-3"><img class="image" src="img/grid4.jpg" alt="Strala relax gyakorlatot végző nő"/><a class="btn" href="#train">Strala Relax</a></div>
+                    <div class="col col-3"><img class="image" src="img/grid1.jpg" alt="Meditációs gyakorlatot végző nő"/><a class="btn" href="csakra.html">Csakra Jóga</a></div>
+                    <div class="col col-3"><img class="image" src="img/grid2.jpg" alt="Stressz gyakorlatot végző nő"/><a class="btn" href="stress.html">Stressz Jóga</a></div>
+                    <div class="col col-3"><img class="image" src="img/grid3.jpg" alt="Gerinc gyakorlatot végző nő"/><a class="btn" href="gerinc.html">Gerinc Jóga</a></div>
+                    <div class="col col-3"><img class="image" src="img/grid4.jpg" alt="Strala relax gyakorlatot végző nő"/><a class="btn" href="strala.html">Strala Relax</a></div>
                 </div>
                 <div class="mantra"><h3><img class="refresh" src="img/reload.png" alt="Felfrissülés"/>Kinek ajánljuk?</h3>
                     <p class="description">Mindenkinek, aki kiszakadna a hétköznapokból és felfrissülésre vágyik. Nálunk elengedheti mindazt, ami stresszként jelenik meg az életében. A testében és elméjében rejtett feszültségek feloldására törekszünk könnyed mozgással és légzéssel. A fizikai test egészségének helyreállításával a testtartását is javítjuk!<p>
@@ -88,7 +89,7 @@
             </section>
 
             <section id="train">
-                <h2>Oktatóképzés</h2>
+                <h2>Órarendünk</h2>
                 <table class="stripe" style="width:100%">
                     <thead>
                         <tr>

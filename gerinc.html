@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>FreshAir Jóga Stúdió</title>
+        <title>FreshAir Jóga Stúdió | Gerincjóga</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="Barta Máté György">
@@ -21,18 +21,27 @@
 
 
         <style>
+            * {box-sizing: border-box;}
             main {background-image: none;}
-            .picture {width: 300px; border: 2px solid orange; margin-top: 10px; box-shadow: 5px 5px 5px #aaaaaa;}
+            h2 {margin-top: 0;}
+            .picture {width: 100%; border: 2px solid orange;}
             .btn {width: 150px; line-height: 20px;}
             .main {margin-bottom: 0;}
             p {width: 100%; height: 132px;}
+            .definition{background-color: rgba(255,255,255,.6)}
             .btn-gallery {margin-top: 0;}
+            .doc {text-align: justify; padding: 50px;}
             @media screen and (max-width:1200px){
                 main {
                     background-image: none;
                 }
             }
-
+            @media screen and (max-width:768px){
+                .doc {
+                    margin: 50px 0;
+                    padding: 20px;
+                }
+            }
         </style>
     </head>
     <body>
@@ -69,22 +78,16 @@
         </header>
 
         <main>
-            <div class="gallery">
-                <a data-fancybox="gallery" href="img/gallery/glry-1.jpg"><img class="picture" src="img/gallery/sm-1.jpg"></a>
-                <a data-fancybox="gallery" href="img/gallery/glry-2.jpg"><img class="picture" src="img/gallery/sm-2.jpg"></a>
-                <a data-fancybox="gallery" href="img/gallery/glry-3.jpg"><img class="picture" src="img/gallery/sm-3.jpg"></a>
-                <a data-fancybox="gallery" href="img/gallery/glry-4.jpg"><img class="picture" src="img/gallery/sm-4.jpg"></a>
-                <a data-fancybox="gallery" href="img/gallery/glry-5.jpg"><img class="picture" src="img/gallery/sm-5.jpg"></a>
-                <a data-fancybox="gallery" href="img/gallery/glry-6.jpg"><img class="picture" src="img/gallery/sm-6.jpg"></a>
-                <a data-fancybox="gallery" href="img/gallery/glry-7.jpg"><img class="picture" src="img/gallery/sm-7.jpg"></a>
-                <a data-fancybox="gallery" href="img/gallery/glry-8.jpg"><img class="picture" src="img/gallery/sm-8.jpg"></a>
-                <a data-fancybox="gallery" href="img/gallery/glry-9.jpg"><img class="picture" src="img/gallery/sm-9.jpg"></a>
-                <a data-fancybox="gallery" href="img/gallery/glry-10.jpg"><img class="picture" src="img/gallery/sm-10.jpg"></a>
-                <a data-fancybox="gallery" href="img/gallery/glry-11.jpg"><img class="picture" src="img/gallery/sm-11.jpg"></a>
-                <a data-fancybox="gallery" href="img/gallery/glry-12.jpg"><img class="picture" src="img/gallery/sm-12.jpg"></a>
-            </div>
-            <div class="btn-gallery">
-                <p><a class="btn" href="index.html">Kezdőlap</a></p>
+            <div class="definition">
+                <div class="image-left">
+                    <h2>Gerincjóga</h2>
+                    <img class="picture" src="img/spine.jpg" alt=""/>
+                    <p class="doc">&#8718 A hatha jóga testtartásaiból kiinduló Gerincjóga olyan modern mozgásterápia, melynek célja a fizikai test és az idegrendszer egészségének helyreállítása biztonságos, az anatómiai alapmozgásokra épülő gyakorlatsorokkal. A Gerincjóga elsődleges célja a megelőzés, illetve az utókezelés. Bárki számára könnyen végezhető, elsajátítható gyakorlatsorok segítségével örömteli fejlődés tapasztalható.</p><br>
+                    <p class="doc">&#8718 A már kialakult kóros gerincelváltozásokat szakorvos segítségével kell kezelni, a jógagyakorlatok sok esetben segítséget jelentenek ilyen esetekben is, de mielőtt eljönnél hozzánk, konzultálj az orvosoddal.</p>
+                </div>
+                <div class="btn-gallery">
+                    <p><a class="btn" href="index.html">Kezdőlap</a></p>
+                </div>
             </div>
         </main>
 
