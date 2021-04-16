@@ -492,9 +492,6 @@ footer {
     h1 {
         line-height: 100px;
     }
-    .mantra {
-        margin-top: 150px !important;
-    }
 }
 
 @media screen and (min-width:1380px){
