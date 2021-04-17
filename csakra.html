@@ -25,12 +25,13 @@
             main {background-image: none;}
             h2 {margin-top: 0;}
             .picture {width: 100%; border: 2px solid orange;}
-            .btn {width: 150px; line-height: 20px;}
+            .btn {line-height: 20px;}
             .main {margin-bottom: 0;}
-            p {width: 100%; height: 132px;}
+            p {width: 100%; height: 132px; font-family: Arial; line-height: 30px;}
             .definition{background-color: rgba(255,255,255,.6)}
             .btn-gallery {margin-top: 0;}
-            .doc {text-align: justify; padding: 50px;}
+            .doc {text-align: justify; padding: 50px; margin-bottom: 70px;}
+
             @media screen and (max-width:1200px){
                 main {
                     background-image: none;
@@ -38,11 +39,16 @@
             }
             @media screen and (max-width:768px){
                 .doc {
-                    margin: 25px 0;
-                    padding: 20px;
+                    margin-bottom: 200px;
                 }
             }
-
+            @media screen and (max-width:480px){
+                .doc {
+                    margin: 20px 0;
+                    padding: 20px;
+                    margin-bottom: 300px;
+                }
+            }
         </style>
     </head>
     <body>
@@ -83,16 +89,13 @@
                 <div class="image-left">
                     <h2>Csakra Jóga</h2>
                     <img class="picture" src="img/csakra.jpg" alt=""/>
-                    <p class="doc">&#8718 A csakrák olyan energiaközpontok a testünkben, amelyek alapvetően meghatározzák energiaszintünket, testi és lelki egészségünket. A csakrák léte csak számunkra, nyugatiak számára tűnik misztikus dolognak, a keleti országok orvosi egyetemein elfogadottnak tekintik létezésüket.</p><br>
-                    <p class="doc">&#8718 Az órák során mindig egy adott csakrára és ahhoz tartozó szerveinkre koncentrálunk, illetve végig egy kiválasztott „csúcspóz” felé haladunk, az ahhoz szükséges izmok erősítésével és nyújtásával.</p><br>
-                    
-                    <div class="btn-gallery">
-                        <p><a class="btn" href="index.html">Kezdőlap</a></p>
-                    </div>
+                    <p class="doc">&#8718 A csakrák keleti a hagyományok szerint az emberi testben elhelyezkedő pszichikai energia, a prána központi magjai.
+                        Az ősi hindu iratok alapján hét fő csakra létezik. A csakrákon átáramló életerő szabályozza a test összes életfunkcióját. Úgy tartják, ha bizonyos csakrák működése nem megfelelő vagy a csakrák közti összeköttetések sérülnek, azok fizikai és lelki problémákként is megmutatkozhatnak. Az órák során mindig egy adott csakrára és ahhoz tartozó szerveinkre koncentrálunk, illetve végig egy kiválasztott „csúcspóz” felé haladunk, az ahhoz szükséges izmok erősítésével és nyújtásával.</p><br>
+                </div>
+                <div class="btn-gallery">
+                    <p><a class="btn" href="index.html">Kezdőlap</a></p>
                 </div>
             </div>
-
-
         </main>
 
     </body>
