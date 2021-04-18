@@ -465,33 +465,27 @@ footer {
 }
 
 /*RESPONSIVE*/
-@media screen and (min-width:3840px){
-    h1 {
-        line-height: 200px;
-    }
-    .mantra {
-        margin-top: 480px !important;
-    }
-    .text-price {
-        font-size: 1.1vw;
-    }    
-}
+ 
 @media screen and (min-width:2560px){
     h1 {
         line-height: 200px;
     }
     .mantra {
-        margin-top: 130px !important;
+        margin-top: 325px !important;
     }
     .text-price {
         font-size: 1.1vw;
     }    
     
 }
-@media screen and (max-width:1920px){
+@media screen and (min-width:1920px){
     h1 {
         line-height: 100px;
     }
+    .mantra {
+        margin-top: 150px;
+    }
+    
 }
 
 @media screen and (min-width:1380px){
@@ -505,7 +499,7 @@ footer {
     }
 
     .mantra {
-        margin-top: 90px;
+        margin-top: 150px;
     }
     .bx-wrapper {
         display: none;
