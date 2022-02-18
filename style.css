@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
-
 * {
     box-sizing: border-box;
 }
@@ -14,14 +13,15 @@ body {
     text-align: center;
 }
 
+
 /* HEADER*/
-header{
-    background: rgba(244, 235, 192,.2);
+
+header {
+    background: rgba(244, 235, 192, .2);
     background-size: cover;
     height: 80px;
     border-bottom: 1px solid #000;
     border-radius: 0 0 25px 25px;
-
 }
 
 .mobilmenu {
@@ -39,7 +39,7 @@ header{
     margin-top: 8px;
 }
 
-.graphic{
+.graphic {
     height: 60px;
     float: left;
     margin-left: 40px;
@@ -84,7 +84,7 @@ a {
 }
 
 .menu a:hover {
-    background-color: rgba(243, 134, 48,.3);
+    background-color: rgba(243, 134, 48, .3);
 }
 
 .menu>li>ul {
@@ -104,10 +104,10 @@ a {
     border-bottom: 1px ridge #000;
     width: 108%;
     text-align: center;
-    background-color: rgba(248, 242, 210,1);
+    background-color: rgba(248, 242, 210, 1);
 }
 
-.width-balance{
+.width-balance {
     width: 99% !important;
 }
 
@@ -115,7 +115,9 @@ a {
     display: block;
 }
 
+
 /* MAIN*/
+
 main {
     background: transparent url(img/background3.jpg) no-repeat;
     border: 1px solid #000;
@@ -136,7 +138,7 @@ h1 {
     text-shadow: 2px 1px #000;
     font-size: 3.8vw;
     margin: 15vw 15vw 5vw 15vw;
-    background-color: rgba(110, 164, 154,.6);
+    background-color: rgba(110, 164, 154, .6);
     height: 100%;
     text-transform: uppercase;
     padding: 30px;
@@ -144,7 +146,7 @@ h1 {
 }
 
 .refresh {
-    width: 20px; 
+    width: 20px;
     float: left;
     margin-right: 15px;
 }
@@ -155,7 +157,9 @@ h1 {
     margin: 0 auto;
 }
 
+
 /*ELSŐ GOMB*/
+
 .btn {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
@@ -170,11 +174,11 @@ h1 {
     text-shadow: 1px 1px black;
 }
 
-.btn:hover, .btn:focus {
+.btn:hover,
+.btn:focus {
     color: #F2E55C;
     background-color: #E6637B;
     outline: none;
-
 }
 
 .btn:active {
@@ -189,7 +193,7 @@ h1 {
 
 .mantra {
     display: inline-block;
-    background-color: rgba(255,255,255,.7);
+    background-color: rgba(255, 255, 255, .7);
 }
 
 h3 {
@@ -197,7 +201,6 @@ h3 {
     margin: 30px 0 0 77px;
     float: left;
     line-height: 15px;
-
 }
 
 .description {
@@ -208,7 +211,9 @@ h3 {
     float: left;
 }
 
+
 /*GRID*/
+
 h2 {
     color: #f38630;
     display: block;
@@ -216,11 +221,12 @@ h2 {
     text-shadow: 2px 1px #000;
     font-size: 3vw;
     margin-top: 80px;
-    background-color: rgba(110, 164, 154,.6);
+    background-color: rgba(110, 164, 154, .6);
     height: 100%;
     text-transform: uppercase;
     padding: 30px;
 }
+
 #grid {
     max-width: 1000px;
     margin: 80px auto;
@@ -236,10 +242,11 @@ h2 {
 
 .grid .col-3 {
     grid-column: span 3;
-
 }
 
+
 /*FOGLALKOZÁSAINK*/
+
 .image {
     margin-top: 40px;
     vertical-align: middle;
@@ -256,7 +263,7 @@ h2 {
     background: transparent url(img/background1.jpg) no-repeat center;
 }
 
-.btn-yoga{
+.btn-yoga {
     font-family: 'Josefin Sans', sans-serif;
     background-color: #f38630;
     color: #fff;
@@ -269,7 +276,7 @@ h2 {
     text-shadow: 1px 1px black;
 }
 
-.btn-yoga:hover{
+.btn-yoga:hover {
     color: #F2E55C;
     background-color: #E6637B;
     outline: none;
@@ -280,12 +287,13 @@ h2 {
 }
 
 .dataTables_wrapper .dataTables_length select {
-    background-color: rgb(255,255,255);
+    background-color: rgb(255, 255, 255);
 }
 
 .dataTables_wrapper .dataTables_filter input {
-    background-color: rgb(255,255,255);
+    background-color: rgb(255, 255, 255);
 }
+
 
 /*ÁRAK - FLEXBOX*/
 
@@ -297,22 +305,21 @@ h2 {
     margin-bottom: 80px;
 }
 
-.flex-container > div {
-    background-color: rgba(244, 235, 192,.9);
+.flex-container>div {
+    background-color: rgba(244, 235, 192, .9);
     width: 100%;
     margin: 10px;
     text-align: justify;
 }
 
-.last-child{
-    background-color: rgba(255,255,255,.9) !important;
+.last-child {
+    background-color: rgba(255, 255, 255, .9) !important;
 }
 
 .price-main {
     float: none;
     text-transform: uppercase;
     margin: 80px 0 0 80px;
-
 }
 
 .text-price {
@@ -332,7 +339,6 @@ h2 {
     border-radius: 15px;
     text-shadow: 1px 1px black;
     float: right;
-
 }
 
 .btn-price:hover {
@@ -353,6 +359,7 @@ h2 {
     border: 10px solid white;
 }
 
+
 /* OKTATÓINK*/
 
 #teacher-slide {
@@ -362,11 +369,11 @@ h2 {
 .grid-container {
     display: grid;
     grid-gap: 10px;
-    background-color: rgba(191, 224, 207,.7);
+    background-color: rgba(191, 224, 207, .7);
     padding: 10px;
 }
 
-.grid-container > div {
+.grid-container>div {
     background-color: rgba(255, 255, 255, 0.8);
     border: 1px solid black;
     text-align: center;
@@ -388,6 +395,7 @@ h5 {
     margin: 10px 30px;
 }
 
+
 /*CONTACT*/
 
 #contact {
@@ -404,14 +412,15 @@ h5 {
     padding: 15px;
     font-weight: bold;
     font-family: 'Jura', sans-serif;
-    background-color: rgba(243, 134, 48,.8);
+    background-color: rgba(243, 134, 48, .8);
 }
 
 .iframe-map {
-    border:0;
-    width:100%;
-    height:500px
+    border: 0;
+    width: 100%;
+    height: 500px
 }
+
 
 /*QUESTION*/
 
@@ -460,13 +469,14 @@ h5 {
 
 footer {
     line-height: 50px;
-    height: 150px;
+    height: 50px;
     font-family: Times New Roman;
 }
 
+
 /*RESPONSIVE*/
- 
-@media screen and (min-width:2560px){
+
+@media screen and (min-width:2560px) {
     h1 {
         line-height: 200px;
     }
@@ -475,60 +485,49 @@ footer {
     }
     .text-price {
         font-size: 1.1vw;
-    }    
-    
+    }
 }
-@media screen and (min-width:1920px){
+
+@media screen and (min-width:1920px) {
     h1 {
         line-height: 100px;
     }
     .mantra {
         margin-top: 150px;
     }
-    
 }
 
-@media screen and (min-width:1380px){
-
+@media screen and (min-width:1380px) {
     main {
         background-size: contain;
     }
-
     .btn {
         font-size: 1.6vw;
     }
-
     .mantra {
         margin-top: 150px;
     }
     .bx-wrapper {
         display: none;
     }
-
     section {
         min-height: 60px;
     }
-
     #background-image {
         background-size: inherit;
     }
-    
-    .btn-price{
+    .btn-price {
         margin: 50px 100px 20px 0;
     }
 }
 
-
-@media screen and (max-width:920px){
-
+@media screen and (max-width:920px) {
     header {
         border-radius: 0;
     }
-
     main {
         background-image: none;
     }
-
     h1 {
         position: static;
     }
@@ -542,21 +541,18 @@ footer {
         width: 100%;
         padding: 0;
         clear: both;
-        background-color: rgba(255,255,255,.6);
+        background-color: rgba(255, 255, 255, .6);
     }
-
     a {
         font-size: 20px;
     }
-
     .logo {
         display: none;
     }
-
     .menu .start {
         margin-top: 8px;
     }
-    .menu li{
+    .menu li {
         float: none;
         margin-top: 0px;
         border-right: none;
@@ -574,68 +570,53 @@ footer {
     .menunyit {
         display: block;
     }
-
     .menu>li>ul {
         display: block;
         padding-top: 0;
         position: static;
         width: 100%;
     }
-
     .menu>li>ul>li {
-        display: block;      
+        display: block;
     }
-
     main {
         margin: 0;
     }
-
     .flex-container {
         display: block;
-
     }
-
-    .flex-container > div {
+    .flex-container>div {
         margin: 0;
         clear: both;
         display: inline-block;
-
     }
-    
     .image {
-    width: 60%;
-    
+        width: 60%;
     }
 }
 
 @media screen and (max-width:850px) {
-
     h1 {
         font-size: 20px;
         line-height: 50px;
     }
-
     .description {
         font-size: 15px;
     }
-
     h2 {
         font-size: 25px;
     }
     section {
         min-height: 250px;
     }
-
     #grid {
         grid-template-columns: none;
         display: block;
         max-width: 50%;
     }
-
     .btn {
         font-size: 20px;
     }
-
     .col {
         padding: 15px;
         margin-bottom: 30px;
@@ -643,64 +624,49 @@ footer {
         float: none;
         display: inline-block;
     }
-
     .flex-container {
         display: inline-block;
-
     }
-
-    .flex-container > div {
+    .flex-container>div {
         margin: 0;
         clear: both;
         display: inline-block;
-
     }
-
     .text-price {
         margin: 20px 50px;
     }
     .image {
         width: 100%;
     }
-
     table.dataTable tbody td {
         padding: 8px 5px;
     }
-    
     .btn {
         padding: 20px 10px;
     }
-
     .btn-yoga {
         padding: 10px 5px;
     }
-
     a {
         font-size: 17px;
     }
-
     .teacher-image {
         width: 100%;
     }
-
     .teacher-desciprion {
         font-size: 20px;
         margin: 10px 10px 30px 10px;
     }
-
     h5 {
         font-size: 20px;
     }
-
     .contact {
         margin: 0 0 25px 0;
         font-size: 18px;
     }
-
     p {
         font-size: 13px;
     }
-
     .btn-data {
         width: 30%;
         font-size: 20px;
